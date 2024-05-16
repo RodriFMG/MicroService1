@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0caefc5-e5c2-45f7-924d-92ef8b8a0652" name="Changes" comment="Merge branch 'main' of https://github.com/RodriFMG/MicroService1">
+    <list default="true" id="d0caefc5-e5c2-45f7-924d-92ef8b8a0652" name="Changes" comment="&quot;Incluye el swaager M1&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Bebida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Cafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Snack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Snack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/BebidaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/BebidaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/CafeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/CafeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/SnackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/SnackController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,15 +26,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gYWFUyrRe3yZU4BKLqALiDrOAm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,6 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -62,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715874888649</updated>
       <workItem from="1715874889680" duration="1040000" />
+      <workItem from="1715884052428" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="Push1">
       <option name="closed" value="true" />
@@ -148,6 +172,7 @@
     <MESSAGE value="Push1" />
     <MESSAGE value="Push2" />
     <MESSAGE value="Merge branch 'main' of https://github.com/RodriFMG/MicroService1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/RodriFMG/MicroService1" />
+    <MESSAGE value="&quot;Incluye el swaager M1&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Incluye el swaager M1&quot;" />
   </component>
 </project>
