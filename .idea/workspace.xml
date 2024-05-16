@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0caefc5-e5c2-45f7-924d-92ef8b8a0652" name="Changes" comment="&quot;Incluye el swaager M1&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Cafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Snack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/Domain/Snack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/BebidaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/BebidaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/CafeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/CafeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/SnackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/microservice1_1/application/SnackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="d0caefc5-e5c2-45f7-924d-92ef8b8a0652" name="Changes" comment="&quot;Incluye el swaager M1&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,25 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/RODRIGO/IdeaProjects/MicroService1_1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RODRIGO/IdeaProjects/MicroService1_1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MicroService11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="MicroService1_1" />
@@ -86,6 +71,7 @@
       <updated>1715874888649</updated>
       <workItem from="1715874889680" duration="1040000" />
       <workItem from="1715884052428" duration="7033000" />
+      <workItem from="1715891798982" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="Push1">
       <option name="closed" value="true" />
@@ -151,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715875695321</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;Incluye el swaager M1&quot;">
+      <option name="closed" value="true" />
+      <created>1715891812663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715891812663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
