@@ -1,1 +1,17 @@
+com\example\microservice1_1\Service\BebidaService.class
 com\example\microservice1_1\MicroService11Application.class
+com\example\microservice1_1\Infrastracture\SnackRepository.class
+com\example\microservice1_1\application\ProductoController.class
+com\example\microservice1_1\Service\SnackService.class
+com\example\microservice1_1\Service\ProductoService.class
+com\example\microservice1_1\Domain\Producto.class
+com\example\microservice1_1\Infrastracture\CafeRepository.class
+com\example\microservice1_1\application\SnackController.class
+com\example\microservice1_1\Domain\Bebida.class
+com\example\microservice1_1\application\BebidaController.class
+com\example\microservice1_1\Infrastracture\BebidaRepository.class
+com\example\microservice1_1\Domain\Snack.class
+com\example\microservice1_1\application\CafeController.class
+com\example\microservice1_1\Service\CafeService.class
+com\example\microservice1_1\Domain\Cafe.class
+com\example\microservice1_1\Infrastracture\ProductoRepository.class
