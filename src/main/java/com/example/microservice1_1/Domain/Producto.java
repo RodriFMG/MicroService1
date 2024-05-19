@@ -1,5 +1,7 @@
 package com.example.microservice1_1.Domain;
 
+//import io.swagger.annotations.ApiModelProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;
 import jakarta.persistence.*;
 import jakarta.persistence.GeneratedValue;
@@ -10,6 +12,8 @@ import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+
+@Schema(name="Producto", description = "Recurso de producto" )
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 @JsonIgnoreProperties(value = { "hibernateLazyInitializer", "handler" }, allowSetters = true)
 @Entity
@@ -20,15 +24,27 @@ public class Producto {
     //atributos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Cambiado a GenerationType.IDENTITY para autoincrementar
-
+    //@ApiModelProperty(notes = "El ID único de producto")
     //llave primaria
     private Long id;
+
+    //@ApiModelProperty(notes = "La imagen de producto")
     @Column(name = "img", length = 600)
     private String img;
+
+    //@ApiModelProperty(notes = "El stock de producto")
     private Long stock;
+
+    //@ApiModelProperty(notes = "El precio del producto")
     private Float precio;
+
+    //@ApiModelProperty(notes = "El nombre del producto")
     private String nombre;
+
+    //@ApiModelProperty(notes = "Disponibilidad del producto")
     private Boolean estado; //booleano para convertir el "v" en disponible y el "f"  en agotado
+
+    //@ApiModelProperty(notes = "Fabricante del producto")
     private String fabricante;
 
 

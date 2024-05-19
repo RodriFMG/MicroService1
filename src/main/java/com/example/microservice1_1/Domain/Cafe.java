@@ -1,10 +1,13 @@
 package com.example.microservice1_1.Domain;
+//import io.swagger.annotations.ApiModelProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@Schema(name = "Cafe", description = "Recurso de cafe")
 @Entity
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 @JsonIgnoreProperties(value = { "hibernateLazyInitializer", "handler" }, allowSetters = true)
@@ -12,6 +15,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Cafe extends Producto{
 
     //atributos
+    //@ApiModelProperty(notes = "El tipo único de cafe")
     private String tipo_cafe;
 
     //constructores

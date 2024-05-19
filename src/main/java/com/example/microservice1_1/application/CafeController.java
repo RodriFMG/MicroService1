@@ -4,6 +4,8 @@ import com.example.microservice1_1.Service.CafeService;
 import com.example.microservice1_1.Domain.Bebida;
 import com.example.microservice1_1.Domain.Cafe;
 
+//import io.swagger.annotations.Api;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.http.HttpStatus;
@@ -13,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@Tag(name = "Cafe", description = "Endpoints de cafe")
 @RestController
 @RequestMapping("/cafe")
 @CrossOrigin(origins = "http://localhost:19006")
